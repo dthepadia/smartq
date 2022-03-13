@@ -11,3 +11,20 @@ img{
 .Search{
   padding-right: 250px;
 }
+.orderDetailRow{
+  padding: 50px;
+  margin: 50px;
+  margin-bottom: 0px;
+}
+.orderDetailCartRow{
+  padding-left: 50px;
+  margin-left: 50px;
+}
+.eventDetailRow{
+  padding: 5px;
+  margin: 10px;
+}
+.paymentButton{
+  width: 100%;
+  
+}
