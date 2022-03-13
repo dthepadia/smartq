@@ -104,11 +104,49 @@ const OrderDetail = () => {
                 <h3>
                     Cart Summary
                 </h3>
+                
                 <Card>
                 <CardBody className="paymentCard">
-                    hello
+                <Row>edit</Row>
+                <Row>
+                <Col sm="8">
+                <ul className="itemList list-unstyled">
+                                {/* title of list */}
+                                <li className="grayBottomBorder pt-0">
+                                    <div className="d-flex justify-content-between">
+                                        <h6 className="order-top-heading">
+                                            Items
+                                        </h6>
+                                        <h6 className="order-top-heading">
+                                            quantity
+                                        </h6>
+                                        <h6 className="order-top-heading">
+                                            Sub-Total
+                                        </h6>
+                                    </div>
+                                </li>
+                                {/* repeat item from here */}
+                                <li>
+                                <div className="d-flex justify-content-between">
+                                    <div>
+                                        <div>
+                                            <span>choose Topping</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                    <h5 className="quantity-heading">12</h5>
+                                    </div>
+                                    <div>
+                                    <h5 className="quantity-heading ">12</h5>
+                                    </div>
+                                </div>
+                                </li>
+                                
+                </ul>
+                </Col>
+                </Row>
                 </CardBody>
-            </Card>
+                </Card>
             </Col>
         </Row>
     </div>
