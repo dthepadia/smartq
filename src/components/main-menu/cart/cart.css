@@ -1,0 +1,16 @@
+.cart-body {
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.cart {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.card-header {
+    font-weight: 600;
+    color: white;
+    background-color: #1976d2;
+
+}

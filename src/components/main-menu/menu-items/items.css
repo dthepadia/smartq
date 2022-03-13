@@ -1,0 +1,26 @@
+.item-image {
+    width: 130px;
+    height: 80px;
+}
+.price {
+    font-weight: 600;
+    color: #1976d2;
+    font-size: 18px;
+}
+
+.pizza-details {
+    margin-bottom: 15px;
+}
+.food-note {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.item-form {
+    width: 95%;
+    margin-left: 10px;
+}
+.items-container {
+    max-height: 800px;
+    overflow: scroll;
+}

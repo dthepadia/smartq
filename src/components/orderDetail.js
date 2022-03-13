@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, CardBody, Col, FormGroup, Input, Label, Row } from 'reactstrap';
 import {TextField ,Autocomplete,Button} from "@mui/material"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 const OrderDetail = () => {
   return (
