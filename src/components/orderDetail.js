@@ -6,6 +6,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 const OrderDetail = () => {
   return (
     <div>
+        <Row className="orderDetailheadingRow">
+          <h1>Order Details</h1>
+        </Row>
         <Row className="orderDetailRow">
         <Col sm="8">
             <h3>

@@ -1,7 +1,14 @@
+.card{
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.card-body{
+  padding: 0 !important;
+}
 .header{
   color: gray;
-  box-shadow: 5px;
-  margin: 30px;
+  margin: 10px;
   padding-bottom: 0px;
 }
 
@@ -10,11 +17,17 @@ img{
   padding-left: 50px;
 }
 .Search{
-  padding-right: 250px;
+  padding-right: 350px;
+}
+.orderDetailheadingRow{
+  padding-left: 50px;
+  margin-left: 50px;
+  padding-top: 50px;
 }
 .orderDetailRow{
   padding: 50px;
   margin: 50px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .orderDetailCartRow{
