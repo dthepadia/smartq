@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
+const App = ()=> {
+  const state = useSelector((state)=>state)
+  const dispatch = useDispatch();
+  const handleIncrement = ()=> {
+    dispatch({type: "INCREMENT", value: 1})
+  }
+  const handleDecrement = ()=> {
+    dispatch({type: "DECREMENT", value: 1})
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <div onClick={handleIncrement}> 
+        +
+      </div>
+      <div onClick={handleDecrement}>
+        -
+      </div>
+      <div>{state.counterData.counter}</div>
+    </React.Fragment>
+    
+  )
 }
-
 export default App;
